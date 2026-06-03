@@ -15,6 +15,8 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'upload_max_bytes' => (int) env('UPLOAD_MAX_BYTES', 10485760),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
